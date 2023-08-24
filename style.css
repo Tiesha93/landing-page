@@ -179,9 +179,12 @@ p {
     padding-left: 80px;
 }
 
+
 .button-container {
  padding: 45px 170px 0px 200px;
 }
+
+
 .button2 {
     background-color: #87a89f;
     color:#f5f7f6 ;
@@ -194,21 +197,28 @@ p {
     font-weight: 200;
 }
 
+
 .info-container {
     display: flex;
     flex-direction: row;
 }
 
+
 /*footer*/
 .footer {
     background-color:#4a5e59 ;
     padding: 40px;
-    gap: 10px;
 }
+
 
 .footer-text {
     color: #4a5e59;
     font-size: 18px;
+}
+
+
+.footer-text>p{
+    gap: 5px;
 }
 
 
@@ -220,4 +230,6 @@ svg{
 
 svg:hover{
     color: #cfe6e0;
+    transform: rotate(360deg);
+    transition-duration: 1s;
 }
