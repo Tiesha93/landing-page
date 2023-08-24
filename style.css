@@ -1,6 +1,6 @@
 /* body*/
 body {
-    font-family: 'Gentium Plus', serif; 
+    font-family: 'Gentium Plus', serif;
 }
 
 * {
@@ -48,7 +48,7 @@ ul {
     border-radius: 5px 15px;
     border: none;
     width: 95px;
-    height: 35px;   
+    height: 35px;
     font-size: 18px;
     font-weight: 200;
 }
@@ -75,7 +75,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+}
 
 .container {
     background-color: #606662;
@@ -111,7 +111,7 @@ p {
    gap: 50px;
 }
 
-.box1, 
+.box1,
 .box2,
 .box3,
 .box4 {
@@ -141,7 +141,6 @@ p {
     font-size: 36px;
     font-style: italic;
     padding-bottom: 90px;
-    
 }
 
 .quote-text-container {
@@ -149,7 +148,6 @@ p {
     width: 54vw;
     padding-top: 130px;
     padding-left: 350px;
-    
 }
 
 .quote-subtext-container {
@@ -179,7 +177,6 @@ p {
 .info-text,
 .info-subtext {
     padding-left: 80px;
-    
 }
 
 .button-container {
@@ -192,7 +189,7 @@ p {
     border-color:#f5f7f6 ;
     border-style: double;
     width: 95px;
-    height: 35px; 
+    height: 35px;
     font-size: 18px;
     font-weight: 200;
 }
@@ -206,9 +203,21 @@ p {
 .footer {
     background-color:#4a5e59 ;
     padding: 40px;
+    gap: 10px;
 }
 
 .footer-text {
-    color: #4a5e59; 
+    color: #4a5e59;
     font-size: 18px;
+}
+
+
+svg{
+    font-size: 18px;
+    color: #f5f7f6;
+}
+
+
+svg:hover{
+    color: #cfe6e0;
 }
